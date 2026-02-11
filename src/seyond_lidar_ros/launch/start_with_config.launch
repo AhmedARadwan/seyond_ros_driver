@@ -3,7 +3,7 @@
 <launch>
   <!-- declare arguments with default values -->
   <!-- the path of config file -->
-  <arg name="config_path" default="$(find seyond)/config.yaml" />
+  <arg name="config_path" default="$(find seyond)/config/config.yaml" />
 
 
   <node pkg="seyond" name="seyond" type="seyond_node" output="screen">
